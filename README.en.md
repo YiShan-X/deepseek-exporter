@@ -24,7 +24,6 @@ Export **your own** DeepSeek (`chat.deepseek.com`) conversation history as **JSO
 - [How It Works](#-how-it-works)
 - [Security & Compliance](#-security--compliance)
 - [Known Limits](#-known-limits)
-- [Roadmap](#-roadmap)
 - [License](#-license)
 
 ---
@@ -156,15 +155,6 @@ deepseek-all-20260707-1300-per-session.zip
 - **`history_messages` is full-payload** (cacheControl: REPLACE); no resume on network interruption
 - **Throttling impacts large accounts**: 800ms pause every 5 sessions → >5,000 sessions takes several minutes
 - **ZIP is STORE-only** (no compression), 2–3× the size of compressed archives; re-compress with WinRAR / 7-Zip if needed
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Selective export (date range / keyword filter on sessions)
-- [ ] HTML export (styled + avatars)
-- [ ] Incremental sync (resume + delta)
-- [ ] i18n (UI multi-language)
 
 ---
 
