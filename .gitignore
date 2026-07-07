@@ -1,0 +1,32 @@
+# OS 噪音
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 备份 / 临时
+*.bak
+*.tmp
+*.orig
+*.log
+
+# 用户上传 / 截图（harness 自动落盘的图，**不应** 进 git）
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.bmp
+
+# Windows 资源管理器元数据
+:Zone.Identifier
+
+# 微信下载文件（以"微信图片_"开头）
+微信图片_*
+
