@@ -12,6 +12,10 @@
 
 [English](./README.en.md) · [快速开始](#-快速开始)
 
+### ⬇️ [**点此一键安装脚本**](https://raw.githubusercontent.com/YiShan-X/deepseek-exporter/main/deepseek-exporter.user.js)
+
+<sub>已装 Tampermonkey 时点击会直接弹出安装页；国内网络慢可换 [jsDelivr 镜像](https://cdn.jsdelivr.net/gh/YiShan-X/deepseek-exporter@main/deepseek-exporter.user.js)（可能滞后数小时）</sub>
+
 </div>
 
 ---
@@ -51,11 +55,17 @@
 
 浏览器扩展商店搜索 **Tampermonkey**（[Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) · [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd) · [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)）。
 
-### 第 2 步：安装脚本
+### 第 2 步：一键安装脚本
 
-打开 [`deepseek-exporter.user.js`](./deepseek-exporter.user.js) → 全选复制 → Tampermonkey 控制面板「实用工具」→「从剪贴板导入」。
+**👉 [点此安装 deepseek-exporter.user.js](https://raw.githubusercontent.com/YiShan-X/deepseek-exporter/main/deepseek-exporter.user.js)**
 
-或直接新建脚本粘贴保存。
+Tampermonkey 会自动识别 `.user.js` 链接并弹出安装页，点「安装」即可。
+
+| 安装方式 | 链接 | 说明 |
+|---------|------|------|
+| ⭐ **GitHub Raw（推荐）** | [安装](https://raw.githubusercontent.com/YiShan-X/deepseek-exporter/main/deepseek-exporter.user.js) | 官方源，永远最新 |
+| 🚀 **jsDelivr CDN 镜像** | [安装](https://cdn.jsdelivr.net/gh/YiShan-X/deepseek-exporter@main/deepseek-exporter.user.js) | 国内访问更快，可能有数小时缓存延迟 |
+| 📋 **手动导入** | [`deepseek-exporter.user.js`](./deepseek-exporter.user.js) | 打不开上面链接时：打开文件 → 全选复制 → Tampermonkey「实用工具」→「从剪贴板导入」 |
 
 ### 第 3 步：启动导出
 

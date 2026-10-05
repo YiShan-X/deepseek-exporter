@@ -12,6 +12,10 @@ Export **your own** DeepSeek (`chat.deepseek.com`) conversation history as **JSO
 
 [中文](./README.md) · [Quick Start](#-quick-start)
 
+### ⬇️ [**Click here to install the script**](https://raw.githubusercontent.com/YiShan-X/deepseek-exporter/main/deepseek-exporter.user.js)
+
+<sub>With Tampermonkey installed, the click opens the install prompt directly. Slow network? Try the [jsDelivr mirror](https://cdn.jsdelivr.net/gh/YiShan-X/deepseek-exporter@main/deepseek-exporter.user.js) (may lag by a few hours)</sub>
+
 </div>
 
 ---
@@ -51,11 +55,17 @@ Export **your own** DeepSeek (`chat.deepseek.com`) conversation history as **JSO
 
 Search **Tampermonkey** in your browser's extension store ([Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) · [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd) · [Firefox](https://addons.mozilla.org/firefox/addon/tampermonkey/)).
 
-### Step 2: Install the script
+### Step 2: One-click install
 
-Open [`deepseek-exporter.user.js`](./deepseek-exporter.user.js) → select all & copy → in Tampermonkey's dashboard "Utilities" → "Import from clipboard".
+**👉 [Install deepseek-exporter.user.js](https://raw.githubusercontent.com/YiShan-X/deepseek-exporter/main/deepseek-exporter.user.js)**
 
-Or create a new script and paste.
+Tampermonkey recognizes the `.user.js` link and opens the install prompt — just click "Install".
+
+| Method | Link | Notes |
+|--------|------|-------|
+| ⭐ **GitHub Raw (recommended)** | [Install](https://raw.githubusercontent.com/YiShan-X/deepseek-exporter/main/deepseek-exporter.user.js) | Canonical source, always latest |
+| 🚀 **jsDelivr CDN mirror** | [Install](https://cdn.jsdelivr.net/gh/YiShan-X/deepseek-exporter@main/deepseek-exporter.user.js) | Faster in some regions, may be a few hours behind |
+| 📋 **Manual import** | [`deepseek-exporter.user.js`](./deepseek-exporter.user.js) | If the links fail: open the file → select all & copy → Tampermonkey "Utilities" → "Import from clipboard" |
 
 ### Step 3: Export
 
